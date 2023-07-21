@@ -22,4 +22,16 @@ describe('Context: My First Tests', () => {
     it('Opening a web application on reg form page', () => {
         cy.visit('/registration_form'); 
     })
+    it('test2',()=>{
+        expect(false).to.equal(false);
+    })
+    it('testr3',()=>{
+        expect(false).not.to.equal(true);
+    })
+    it('test4',()=>{
+        expect(5).to.equal(5);
+    })
+    it('test5',()=>{
+        expect(true).to.equal('5'==5);
+    })
 })
